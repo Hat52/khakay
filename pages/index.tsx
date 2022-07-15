@@ -45,6 +45,16 @@ const Home: NextPage = () => {
               Beautiful Navbars Templates
             </p>
           </a>
+
+          <a
+            href="/page-not-found"
+            className={styles.card}
+          >
+            <h2>Page Not Found &rarr;</h2>
+            <p>
+              Beautiful Page Not Found Templates
+            </p>
+          </a>
         </div>
       </main>
 
