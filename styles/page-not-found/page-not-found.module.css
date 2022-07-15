@@ -1,0 +1,17 @@
+.page_not_found{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+}
+.page_not_found h1{
+    color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .page_not_found {
+      flex-direction: column;
+      padding:0 10%;
+    }
+  }

@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
+import PageUnderConstruction from '../coming-soon'
 const NavBar: NextPage = () => {
     return(
-        <h1>Welcome to NavBar template gallery</h1>
+        <PageUnderConstruction/>
     )
 }
 
