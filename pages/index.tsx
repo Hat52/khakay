@@ -18,43 +18,45 @@ const Home: NextPage = () => {
         </h1>
 
         <div className={styles.grid}>
-          <a href="/auth" className={styles.card}>
-            <h2>Auth Forms &rarr;</h2>
-            <p>Signin and Logup forms Templates</p>
-          </a>
-
-          <a href="/cards" className={styles.card}>
-            <h2>Cards &rarr;</h2>
-            <p>Different type of cards Templates</p>
-          </a>
-
-          <a
-            href="/multi-step-form"
-            className={styles.card}
-          >
-            <h2>Multi Step Forms &rarr;</h2>
-            <p>Beautiful Multi step forms Templates</p>
-          </a>
-
-          <a
-            href="/navbar"
-            className={styles.card}
-          >
-            <h2>Navbars &rarr;</h2>
-            <p>
-              Beautiful Navbars Templates
-            </p>
-          </a>
-
-          <a
-            href="/page-not-found"
-            className={styles.card}
-          >
-            <h2>Page Not Found &rarr;</h2>
-            <p>
-              Beautiful Page Not Found Templates
-            </p>
-          </a>
+          <Link href="/auth">
+            <a className={styles.card}>
+              <h2>Auth Forms &rarr;</h2>
+              <p>Signin and Logup forms Templates</p>
+            </a>
+          </Link>
+          <Link href="/cards">
+            <a className={styles.card}>
+              <h2>Cards &rarr;</h2>
+              <p>Different type of cards Templates</p>
+            </a>
+          </Link>
+          <Link href="/multi-step-form">
+            <a className={styles.card}
+            >
+              <h2>Multi Step Forms &rarr;</h2>
+              <p>Beautiful Multi step forms Templates</p>
+            </a>
+          </Link>
+          <Link href="/navbar">
+            <a
+              className={styles.card}
+            >
+              <h2>Navbars &rarr;</h2>
+              <p>
+                Beautiful Navbars Templates
+              </p>
+            </a>
+          </Link>
+          <Link href="/page-not-found">
+            <a
+              className={styles.card}
+            >
+              <h2>Page Not Found &rarr;</h2>
+              <p>
+                Beautiful Page Not Found Templates
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
