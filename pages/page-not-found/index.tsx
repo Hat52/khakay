@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
+import PageUnderConstruction from '../coming-soon'
 const PageNotFound: NextPage = () => {
     return(
-        <h1>Welcome to Page Not Found template gallery</h1>
+        <PageUnderConstruction/>
     )
 }
 

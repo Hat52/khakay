@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
+import PageUnderConstruction from '../coming-soon'
 const MultiStepForm: NextPage = () => {
     return(
-        <h1>Welcome to MultiStepForm template gallery</h1>
+        <PageUnderConstruction/>
     )
 }
 

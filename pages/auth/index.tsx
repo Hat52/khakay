@@ -1,7 +1,8 @@
 import type { NextPage } from 'next'
+import PageUnderConstruction from '../coming-soon'
 const Auth: NextPage = () => {
     return(
-        <h1>Welcome to Auth template gallery</h1>
+        <PageUnderConstruction/>
     )
 }
 
