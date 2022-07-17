@@ -1,8 +1,21 @@
 import type { NextPage } from 'next'
-import PageUnderConstruction from '../coming-soon'
+import Link from 'next/link'
+import Image from 'next/image'
+// import PageUnderConstruction from '../coming-soon'
+import Styles from './styles/not-found.module.css'
 const PageNotFound: NextPage = () => {
     return(
-        <PageUnderConstruction/>
+        // <PageUnderConstruction/>
+        <div className={Styles.page_one_container}>
+            <Link href="/">Back To Home</Link>
+            <h3>
+                404<br/>
+                Lost directions
+            </h3>
+            <div className={Styles.image_container}>
+                <Image src="/img/lost-direction.svg" alt="me"  layout='fill' objectFit='contain' /> 
+            </div>
+        </div>
     )
 }
 
