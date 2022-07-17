@@ -1,8 +1,9 @@
 import type { NextPage } from 'next'
-import PageUnderConstruction from '../coming-soon'
+// import PageUnderConstruction from '../coming-soon'
+import ViewCard from './components/ViewCard'
 const Cards: NextPage = () => {
     return(
-        <PageUnderConstruction/>
+        <ViewCard/>
     )
 }
 
