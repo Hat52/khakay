@@ -8,7 +8,10 @@ interface pageNotFound {
 const PageNotFound1 = ({isPreview}:pageNotFound) => {
     if(isPreview){
         return (
-            <img className="preview-image" src="../../../img/preview/404 - 1.svg" alt="me"/> 
+            <div style={{width: '100%', height: '100%', position: 'relative'}}>
+                <Image className="preview-image" src="/img/preview/404 - 1.svg" layout="fill" alt="me"/> 
+            </div>
+            
         )
     }
     return(

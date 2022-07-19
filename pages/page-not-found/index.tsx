@@ -37,9 +37,9 @@ const PageNotFound: NextPage = () => {
             </h1>
             <div className={Styles.not_found_card_container}>
                 {
-                    [0,1,2,3,4].map(()=>{
+                    [0,1,2,3,4].map((value,index)=>{
                         return(
-                            <div >
+                            <div key={index}>
                                 <ViewCard component={PageNotFound1} isPreview={true} path="page-not-found/components/page-not-found-1"/>
                             </div>
                         )
