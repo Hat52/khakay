@@ -23,3 +23,9 @@
     height: 40%;
     position: relative;
 }
+.not_found_card_container{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

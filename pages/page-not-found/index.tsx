@@ -31,11 +31,23 @@ import ViewCard from '../cards/components/ViewCard'
 import {PageNotFound1} from './components'
 const PageNotFound: NextPage = () => {
     return(
-        // <div className={StylesMain.container}>
-            <div className={StylesMain.main}>
-                <ViewCard component={PageNotFound1}/>
+        <div className="page-conatiner">
+            <h1 className="page-heading" >
+                404 Page preview
+            </h1>
+            <div className={Styles.not_found_card_container}>
+                {
+                    [0,1,2,3,4].map(()=>{
+                        return(
+                            <div >
+                                <ViewCard component={PageNotFound1} isPreview={true} path="page-not-found/components/page-not-found-1"/>
+                            </div>
+                        )
+
+                    })
+                }
             </div>
-        // </div>
+        </div>
     )
 }
 

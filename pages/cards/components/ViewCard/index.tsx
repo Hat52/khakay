@@ -2,11 +2,14 @@ import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
 import Styles from './view-card.module.css'
 import PageUnderConstruction from '../../../coming-soon'
-const ViewCard: NextPage<any> = ({component:Component}) => {
+import Link from 'next/link'
+const ViewCard: NextPage<any> = ({component:Component,isPreview,path}) => {
     return(
-        <div className={Styles.container}>
-            <Component/>
-        </div>
+        <Link href={path}>
+            <div className={Styles.container}>
+                <Component isPreview={isPreview}/>
+            </div>
+        </Link>
     )
 }
 
