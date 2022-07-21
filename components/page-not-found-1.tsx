@@ -1,7 +1,6 @@
-import type { NextPage } from 'next'
 import Link from 'next/link'
 import Image from 'next/image'
-import Styles from '../styles/not-found.module.css'
+import Styles from './styles/not-found.module.css'
 interface pageNotFound { 
     isPreview:Boolean
 }
