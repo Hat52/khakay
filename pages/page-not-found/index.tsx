@@ -28,7 +28,7 @@ import Image from 'next/image'
 import Styles from './styles/not-found.module.css'
 import StylesMain from '../../styles/Home.module.css'
 import ViewCard from '../cards/components/ViewCard'
-import {PageNotFound1} from '../../components'
+import {PageNotFound1} from '../../components/page-not-found'
 const PageNotFound: NextPage = () => {
     return(
         <div className="page-conatiner">
@@ -40,7 +40,7 @@ const PageNotFound: NextPage = () => {
                     [0,1,2,3,4].map((value,index)=>{
                         return(
                             <div key={index}>
-                                <ViewCard component={PageNotFound1} isPreview={true} path="/page-not-found/pages"/>
+                                <ViewCard component={PageNotFound1} isPreview={true} path={`/page-not-found/pages/0`}/>
                             </div>
                         )
 
