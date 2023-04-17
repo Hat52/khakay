@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Home: NextPage = () => {
 	return (
-		<div className={styles.container}>
+		<div className={`${styles.container} bg-[#F8CBA6]`}>
 			<Head>
 				<title>Khakay</title>
 				<meta name="description" content="Khakay" />
@@ -13,13 +13,13 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
-				<h1 className={styles.title}>Welcome to Khakay!</h1>
+				<h1 className={`${styles.title} text-[#ECF9FF]`}>Welcome to Khakay!</h1>
 
 				<div className={styles.grid}>
 					<Link href="/auth">
 						<a className={styles.card}>
 							<h2>Auth Forms &rarr;</h2>
-							<p>Signin and Logup forms Templates</p>
+							<p>Login in and Signup forms Templates</p>
 						</a>
 					</Link>
 					<Link href="/cards">
