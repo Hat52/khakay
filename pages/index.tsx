@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Home: NextPage = () => {
 	return (
-		<div className={`${styles.container} bg-[#F8CBA6]`}>
+		<div className={`${styles.container} bg-[#ECF9FF]`}>
 			<Head>
 				<title>Khakay</title>
 				<meta name="description" content="Khakay" />
