@@ -51,7 +51,7 @@ const Home: NextPage = () => {
 
 			<footer className={styles.footer}>
 				<a href="https://github.com/Hat52" target="_blank" rel="noopener noreferrer">
-					Devloped by Hamza Ali
+					Developed by Hamza Ali
 					{/* <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span> */}
